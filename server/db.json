@@ -1,3 +1,214 @@
 {
-  "users": []
+  "users": [
+    {
+      "email": "user@gmail.com",
+      "password": "$2a$10$yJxfsImuWq3bOhg3N3RgX.OZ1wJ4CeLB9Hq52IIiuP05KFGoJgxO6",
+      "login": "user-login",
+      "firstName": "Иван",
+      "lastName": "Иванов",
+      "dob": "24/02/2002",
+      "sex": "Мужской",
+      "roles": [
+        "user"
+      ],
+      "isActive": true,
+      "id": 2
+    },
+    {
+      "email": "john@gmail.com",
+      "password": "$2a$10$QToo/QZusqi/1C6rr/.iWeu9MXINdJq8vtbllYKtkZ0fvVb83aThu",
+      "login": "johhny",
+      "firstName": "john",
+      "lastName": "doe",
+      "roles": [
+        "user"
+      ],
+      "id": 3,
+      "dob": "21",
+      "sex": "f"
+    },
+    {
+      "email": "max@gmail.com",
+      "password": "$2a$10$qwh12k4q0cLdarqACNvPrOzMnzG8dpTRvNRkd/oqXFVh0EL2jJ4a6",
+      "login": "maxis",
+      "firstName": "maxis",
+      "lastName": "maxm",
+      "roles": [
+        "user"
+      ],
+      "id": 4,
+      "dob": "dsa",
+      "sex": "dsa"
+    },
+    {
+      "email": "jane@gmail.com",
+      "password": "$2a$10$lsPWnLvUTXtsVaW5A0z0juihSUuCU6eCjE1wYNhytEOZr4Vg/fCUy",
+      "login": "dsaddsad",
+      "firstName": "janes",
+      "lastName": "doe",
+      "roles": [
+        "user"
+      ],
+      "id": 5,
+      "dob": "dsad",
+      "sex": "dassd"
+    },
+    {
+      "email": "alex@gmail.com",
+      "password": "$2a$10$PXtp41Pc199whRM4PWgZGedCmJYAmhm4cWaSJ7RhwlpQ8VlO1ATuC",
+      "login": "alex",
+      "firstName": "Алексей",
+      "lastName": "Фамильевич",
+      "roles": [
+        "user"
+      ],
+      "id": 6
+    },
+    {
+      "email": "haha@haha.ha",
+      "password": "$2a$10$MMozv/GmmSgwVYsvRuqSyupkQUjn1CF4UxhCct1rq9EA5pvnlWnca",
+      "login": "ahha",
+      "firstName": "ЫЫЫ",
+      "lastName": "ыфаыва",
+      "roles": [
+        "user"
+      ],
+      "id": 7,
+      "dob": "02/02/2002",
+      "sex": "Male"
+    }
+  ],
+  "companiesCatalog": [
+    {
+      "id": 1,
+      "name": "for cars",
+      "nameRu": "для авто",
+      "imgUrl": ""
+    },
+    {
+      "id": 2,
+      "name": "health",
+      "nameRu": "здоровье",
+      "imgUrl": ""
+    },
+    {
+      "id": 3,
+      "name": "entertainment",
+      "nameRu": "развлечения",
+      "imgUrl": ""
+    },
+    {
+      "id": 4,
+      "name": "beauty",
+      "nameRu": "бьюти",
+      "imgUrl": ""
+    },
+    {
+      "id": 5,
+      "name": "repair",
+      "nameRu": "ремонт",
+      "imgUrl": ""
+    },
+    {
+      "id": 6,
+      "name": "services",
+      "nameRu": "услуги",
+      "imgUrl": ""
+    },
+    {
+      "id": 7,
+      "name": "trading",
+      "nameRu": "торговля",
+      "imgUrl": ""
+    },
+    {
+      "id": 8,
+      "name": "education",
+      "nameRu": "образования",
+      "imgUrl": ""
+    },
+    {
+      "id": 9,
+      "name": "products",
+      "nameRu": "продукты",
+      "imgUrl": ""
+    },
+    {
+      "id": 10,
+      "name": "tourism",
+      "nameRu": "туризм",
+      "imgUrl": ""
+    },
+    {
+      "id": 11,
+      "name": "communication",
+      "nameRu": "связь",
+      "imgUrl": ""
+    },
+    {
+      "id": 12,
+      "name": "goods",
+      "nameRu": "товары",
+      "imgUrl": ""
+    }
+  ],
+  "companies": [
+    {
+      "id": 1,
+      "catalogId": 2,
+      "managerId": -1,
+      "name": "Медицинский  центр",
+      "description": "Медицинский центр «ТиАмо» — медицинское учреждение, основными видами деятельности которого являются косметология, лазерная хирургия, стоматология, физиотерапия, массаж и коррекция фигуры, солярий.",
+      "imgUrl": "",
+      "address": "г. Витебск, Московски пр-т,  33",
+      "phone": "123-23-34",
+      "reviewsScore": 4
+    },
+    {
+      "id": 2,
+      "catalogId": 1,
+      "managerId": -1,
+      "name": "Mercedes-Benz",
+      "description": "Mercedes-Benz — торговая марка и одноимённая компания — производитель легковых автомобилей премиального класса, грузовых автомобилей, автобусов и других транспортных средств, входящая в состав немецкого концерна «Mercedes-Benz Group».",
+      "imgUrl": "https://автолого.рф/wp-content/uploads/mercedes-benz-logo-2011-1920x1080.png",
+      "address": "Mercedesstr. 120, 70372 Stuttgart, Deutschland",
+      "phone": "123-23-34",
+      "reviewsScore": 5
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "companyId": 1,
+      "text": "Все понравилось",
+      "score": 4,
+      "user": {
+        "id": -1,
+        "name": "Анна",
+        "imgUrl": "https://i1.sndcdn.com/artworks-000635780677-yhmbpw-t500x500.jpg"
+      }
+    },
+    {
+      "id": 2,
+      "companyId": 1,
+      "text": "Персонал хамло!",
+      "score": 2,
+      "user": {
+        "id": -2,
+        "name": "Наталья",
+        "imgUrl": "https://i1.sndcdn.com/artworks-000635780677-yhmbpw-t500x500.jpg"
+      }
+    },
+    {
+      "id": 3,
+      "companyId": 1,
+      "text": "axaxaxaxaxa xaxaxa xaxaxaxaxaxax axaxaxaxaxaxaxaxaxaxax axaxaxaxaxaxaxaxaxaxaxaxax axaxaxaxaxaxax axaxaxaxa xaxaxaxaxaxaxaxa xaxaxaxaxaxax axaxaxaxaxaxaxaxaxaxaxaxax axaxaxaxaxa xaxaxa xaxaxaxaxaxax axaxaxaxaxaxaxaxaxaxax axaxaxaxaxaxaxaxaxaxaxaxax axaxaxaxaxaxax axaxaxaxa xaxaxaxaxaxaxaxa xaxaxaxaxaxax axaxaxaxaxaxaxaxaxaxaxaxax",
+      "score": 5,
+      "user": {
+        "id": 1,
+        "name": "Top G",
+        "imgUrl": "https://i1.sndcdn.com/artworks-000635780677-yhmbpw-t500x500.jpg"
+      }
+    }
+  ]
 }
